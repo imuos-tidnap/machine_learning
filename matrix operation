@@ -1,0 +1,51 @@
+import numpy as np
+# creating two matrices
+A = np.array([[2,3],[4,5]])
+B = np.array([[6,7],[8,9]])
+print(A)
+print(B)
+A.shape
+B.shape
+
+sum = A+B
+print(sum)
+
+difference = A - B
+print(difference)
+
+# create two matrices with random values
+matrix_1 = np.random.randint(10, size=(3,3))
+matrix_2 = np.random.randint(20, size=(3,3))
+
+print(matrix_1)
+print(matrix_2)
+sum = np.add(matrix_1, matrix_2)
+print(sum)
+
+# create two matrices with random values
+matrix_1 = np.random.randint(10, size=(3,3))
+matrix_2 = np.random.randint(20, size=(3,3))
+
+diff = np.subtract(matrix_1, matrix_2)
+print(diff)
+
+# multiplying by scaler
+x = 5
+y = np.random.randint(10, size=(4,4))
+print(y)
+
+# multiplying 2 matrices
+# create two matrices with random values
+matrix_3 = np.random.randint(5, size=(3,3))
+matrix_4 = np.random.randint(5, size=(3,4))
+
+product = np.dot(matrix_3, matrix_4)
+
+# element wise matrix multiplication
+# create two matrices with random values
+matrix_3 = np.random.randint(5, size=(3,3))
+matrix_4 = np.random.randint(5, size=(3,3))
+
+product = np.multiply(matrix_3, matrix_4)
+
+
